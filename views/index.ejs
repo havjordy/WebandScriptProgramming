@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Jordy Alec Havyarimana</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/bootstrap/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="/@fortawesome/fontawesome-free/css/all.min.css"/>
+
+    <!-- Smooth scrolling CSS -->
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Nav bar --> 
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">My Portfolio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <!-- Navigation Links in HTML -->
+<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+    <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="#home"><i class="fa-solid fa-house-crack"></i> Home</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#about"><i class="fa-solid fa-address-card"></i> About Me</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#projects"><i class="fa-solid fa-folder-open"></i> Projects</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="#contact"><i class="fa-solid fa-address-card"></i> Contact Me</a>
+    </li>
+</ul>
+
+        </div>
+    </div>
+</nav>
+    
+
+
+
+
+    <!-- Sections with IDs for in-page scrolling -->
+    <section id="home">
+        <h1>Welcome to my Portfolio</h1>
+        <p>Hello, I am Jordy Alec Havyarimana. This is where I will be showing my journey to become a hacker.</p>
+        <img src="/images/IMG_9047.jpg" alt="Jordy's picture" width="500px">
+    </section>
+
+    <!-- to add a line to show a clear separation between the pages -->
+    <hr class="section-divider">
+
+
+    <section id="about">
+        <h1>About Me</h1>
+        <img src="/images/Jordypic.jpg" alt="Jordy's picture" width="250px">
+        <p>This is me. 6'3ft trying to survive in IT. In my free time, I like cooking. I'm a chef!</p>
+        <video width="460" height="580" controls>
+            <source src="/images/Myvideo.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+
+    <!-- to add a line to show a clear separation between the pages -->
+    <hr class="section-divider">
+
+
+    <section id="projects">
+        <h1>My Personal Projects</h1>
+        <h2>Senior Year Book</h2>
+        <p>My project about investigating a topic chosen at the begining of the year thoughout the whole school year. My school was in French so the project. The topic i chose was "What measures does the Rwandan government put in place to protect it's citizen from Cybercriminality". We were only allowed to have one article from the internet and all other investigation had to be made by intrerviewing poeple. At the end, we had to present the book in front of the profs, classmates and parents. IT WAS EXCITING and it was preparing us for the furure</p>
+        <h2>Other Project</h2>
+        <p>In the same senior year in high school, we had to fundaraise ourselves our senior year trip by hosting sports events, house parties and concerts in Rwanda.</p>
+    </section>
+
+    <!-- to add a line to show a clear separation between the pages -->
+    <hr class="section-divider">
+
+
+    <section id="contact">
+        <h1>Contact Me</h1>
+        <form action="/contact" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required>
+            <label for="comments">Comments:</label>
+            <textarea id="comments" name="comments"></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Contact: jordy.havyarimana@ontariotechu.net</p>
+        <p>Linkedin: <a href="https://www.linkedin.com/in/jordy-alec-havyarimana-b25594302/" target="_blank">www.linkedin.com/in/jordy-alec-havyarimana</a></p>
+        <p>&copy; 2024 Jordy Alec Havyarimana</p>
+    </footer>
+
+
+<script src="/jquery/dist/jquery.min.js"></script> 
+<script src="/bootstrap/dist/js/bootstrap.min.js"></script> 
+<script src="/Scripts/apps.js"></script> <!-- Custom JavaScript file -->
+
+</body>
+</html>
